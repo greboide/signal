@@ -100,7 +100,6 @@ GEM
     more (0.0.3)
       less
     mutter (0.5.3)
-    mysql (2.8.1)
     nokogiri (1.4.3.1)
     polyglot (0.3.1)
     rack (1.1.0)
@@ -154,6 +153,8 @@ GEM
     sexp_processor (3.0.4)
     sqlite3-ruby (1.3.1)
     term-ansicolor (1.0.5)
+    test-unit (1.2.3)
+      hoe (>= 1.5.1)
     treetop (1.4.8)
       polyglot (>= 0.3.1)
     trollop (1.16.2)
@@ -183,10 +184,10 @@ DEPENDENCIES
   koujou
   metric_fu
   more (= 0.0.3)
-  mysql
   rails (= 2.3.8)
   remarkable
   remarkable_rails
   rspec
   rspec-rails
   sqlite3-ruby
+  test-unit (= 1.2.3)

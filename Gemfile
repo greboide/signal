@@ -2,7 +2,6 @@ source :gemcutter
 
 gem 'rails', '2.3.8'
 gem 'sqlite3-ruby'
-gem 'mysql'
 gem 'haml'
 gem 'inherited_resources', '1.0.6'
 gem 'git'
@@ -14,7 +13,7 @@ gem 'jrails'
 gem 'delayed_job', '1.8.1'
 gem "compass", ">= 0.10.2"
 gem "daemons"
-
+gem 'test-unit', "= 1.2.3"
 gem 'inploy', '>=1.6.8'
 
 gem 'metric_fu'

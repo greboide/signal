@@ -1,9 +1,7 @@
-application = "signal"
-repository = 'git://github.com/dcrec1/signal.git'
-user = 'dcrec1'
-hosts = ['hooters', 'geni']
-path = '/opt'
+deploy.application = "signal"
+deploy.repository = 'git://github.com/greboide/signal.git'
+deploy.user = 'root'
+deploy.hosts = ['horizoneye.org']
+deploy.path = '/var/www/'
 
-before_restarting_server do
-  run "script/delayed_job -e production restart"
-end
+deploy.environment = "production"
